@@ -747,3 +747,6 @@
       if there is an Unlock/Failsafe Code to display.
   sergeirocks100:
   - rscdel: Tramstation has been removed.
+2022-12-23:
+  sergeirocks100:
+  - bugfix: The map_format has been reverted to normal.
