@@ -1,0 +1,4 @@
+author: "sergeirocks100"
+delete-after: True
+changes:
+  - rscadd: "The number of normal character slots has increased from 3 to 10, and the number of premium character slots has increased from 8 to 20."
