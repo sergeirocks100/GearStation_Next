@@ -750,3 +750,7 @@
 2022-12-23:
   sergeirocks100:
   - bugfix: The map_format has been reverted to normal.
+2022-12-28:
+  sergeirocks100:
+  - rscadd: The number of normal character slots has increased from 3 to 10, and the
+      number of premium character slots has increased from 8 to 20.
