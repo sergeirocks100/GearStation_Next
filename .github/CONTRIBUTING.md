@@ -12,8 +12,9 @@
 7. [Pull Request Process](#pull-request-process)
 8. [Good Boy Points](#good-boy-points)
 9. [Porting features/sprites/sounds/tools from other codebases](#porting-featuresspritessoundstools-from-other-codebases)
-10. [Banned content](#banned-content)
-11. [A word on Git](#a-word-on-git)
+10. [Restricted content](#restricted-content)
+11. [Banned content](#banned-content)
+12. [A word on Git](#a-word-on-git)
 
 ## Reporting Issues
 
@@ -191,10 +192,14 @@ Because GearStation is a codebase that believes in software freedom. assets or c
 
 The GNU website has a helpful list of free and non-free licenses [here](https://www.gnu.org/licenses/license-list.en.html).
 
+## Restricted content
+Adding any of the following in a Pull Request requires prior approval from a maintainer or headcoder:
+* Code adding, removing, or updating the availability of alien races/species/human mutants. Pull requests attempting to add or remove features from said races/species/mutants require prior approval as well.
+* Station maps consisting of more than one z-level.
+
 ## Banned content
 Do not add any of the following in a Pull Request or risk getting the PR closed:
 * Code where one line of code is split across mutiple lines (except for multiple, separate strings and comments; in those cases, existing longer lines must not be split up)
-* Code adding, removing, or updating the availability of alien races/species/human mutants without prior approval. Pull requests attempting to add or remove features from said races/species/mutants require prior approval as well.
 * Any assets or code that are under non-free licenses.
 * Anything that relies on Extools, Auxtools, or any other BYOND version dependent external DLLs to function.
 * Anything that contains in-game references to real world news events, popular culture, or internet memes.
