@@ -1038,8 +1038,6 @@
 		"holosignsec",
 		"holosignengi",
 		"holosignatmos",
-		"holosignrestaurant",
-		"holosignbar",
 		"inducer",
 		"tray_goggles",
 		"holopad",

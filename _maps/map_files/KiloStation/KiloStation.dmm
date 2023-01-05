@@ -56257,9 +56257,6 @@
 /obj/item/toy/figure/chef{
 	pixel_x = 4
 	},
-/obj/item/holosign_creator/robot_seat/restaurant{
-	pixel_y = -5
-	},
 /turf/open/floor/iron/dark,
 /area/station/service/kitchen)
 "qbY" = (
@@ -63754,11 +63751,9 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/obj/machinery/restaurant_portal/restaurant,
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/obj/effect/turf_decal/delivery/red,
 /obj/machinery/duct,
 /turf/open/floor/iron/showroomfloor,
 /area/station/service/bar/atrium)
@@ -65509,7 +65504,6 @@
 	pixel_x = 2;
 	pixel_y = 10
 	},
-/obj/item/holosign_creator/robot_seat/bar,
 /obj/machinery/status_display/evac/directional/west,
 /obj/structure/table,
 /obj/machinery/light/directional/west,
@@ -68278,11 +68272,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/restaurant_portal/bar,
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/obj/effect/turf_decal/delivery/red,
 /obj/machinery/duct,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4

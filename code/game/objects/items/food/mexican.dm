@@ -19,7 +19,7 @@
 	tastes = list("torilla" = 2, "beans" = 3)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/cheesyburrito
 	name = "cheesy burrito"
@@ -29,7 +29,7 @@
 	tastes = list("torilla" = 2, "beans" = 3, "cheese" = 1)
 	foodtypes = GRAIN | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/carneburrito
 	name = "carne asada burrito"
@@ -39,7 +39,7 @@
 	tastes = list("torilla" = 2, "meat" = 4)
 	foodtypes = GRAIN | MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/fuegoburrito
 	name = "fuego plasma burrito"
@@ -49,7 +49,7 @@
 	tastes = list("torilla" = 2, "beans" = 3, "hot peppers" = 1)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_LEGENDARY
+	
 
 /obj/item/food/nachos
 	name = "nachos"
@@ -59,7 +59,7 @@
 	tastes = list("nachos" = 1)
 	foodtypes = GRAIN | FRIED
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/cheesynachos
 	name = "cheesy nachos"
@@ -69,7 +69,7 @@
 	tastes = list("nachos" = 2, "cheese" = 1)
 	foodtypes = GRAIN | FRIED | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/cubannachos
 	name = "Cuban nachos"
@@ -88,7 +88,7 @@
 	tastes = list("taco" = 4, "meat" = 2, "cheese" = 2, "lettuce" = 1)
 	foodtypes = MEAT | DAIRY | GRAIN | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/taco/plain
 	name = "plain taco"
@@ -97,7 +97,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("taco" = 4, "meat" = 2, "cheese" = 2)
 	foodtypes = MEAT | DAIRY | GRAIN
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/enchiladas
 	name = "enchiladas"
@@ -117,7 +117,7 @@
 	tastes = list("death" = 2, "rock" = 1, "meat" = 1, "hot peppers" = 1)
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_LEGENDARY
+	
 
 /obj/item/food/chipsandsalsa
 	name = "chips and salsa"

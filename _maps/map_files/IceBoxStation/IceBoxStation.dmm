@@ -15563,7 +15563,6 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/obj/machinery/restaurant_portal/bar,
 /turf/open/floor/stone,
 /area/station/commons/lounge)
 "eId" = (
@@ -27363,21 +27362,21 @@
 	dir = 8
 	},
 /obj/machinery/button/flasher{
-	pixel_y = -32;
-	id = "hopflash"
+	id = "hopflash";
+	pixel_y = -32
 	},
 /obj/machinery/button/door/directional/south{
-	pixel_x = -8;
-	req_access = list("hop");
 	id = "hopqueue";
-	name = "Queue Shutters Control"
+	name = "Queue Shutters Control";
+	pixel_x = -8;
+	req_access = list("hop")
 	},
 /obj/machinery/button/door/directional/south{
-	pixel_y = -24;
-	pixel_x = 8;
+	id = "hop";
 	name = "Privacy Shutters Control";
-	req_access = list("hop");
-	id = "hop"
+	pixel_x = 8;
+	pixel_y = -24;
+	req_access = list("hop")
 	},
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 8
@@ -48812,7 +48811,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/obj/item/holosign_creator/robot_seat/bar,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/duct,
 /obj/structure/table/wood,
@@ -52490,7 +52488,6 @@
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/item/book/manual/chef_recipes,
-/obj/item/holosign_creator/robot_seat/restaurant,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/service/kitchen)
 "qfh" = (
@@ -67367,7 +67364,6 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/obj/machinery/restaurant_portal/restaurant,
 /turf/open/floor/iron/large,
 /area/station/service/kitchen/diner)
 "uOL" = (

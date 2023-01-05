@@ -834,16 +834,6 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
-/datum/design/board/restaurant_portal
-	name = "Restaurant Portal Board"
-	desc = "The circuit board for a restaurant portal"
-	id = "restaurant_portal"
-	build_path = /obj/item/circuitboard/machine/restaurant_portal
-	category = list(
-		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_KITCHEN
-	)
-	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
-
 /datum/design/board/vendatray
 	name = "Vend-a-Tray Board"
 	desc = "The circuit board for a Vend-a-Tray."

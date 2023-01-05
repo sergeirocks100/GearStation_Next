@@ -91,7 +91,7 @@
 	tastes = list("fries" = 3, "salt" = 1)
 	foodtypes = VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/fries/Initialize(mapload)
 	. = ..()
@@ -130,7 +130,7 @@
 	tastes = list("fries" = 3, "cheese" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/cheesyfries/Initialize(mapload)
 	. = ..()
@@ -144,7 +144,7 @@
 	tastes = list("potato" = 3, "gravy" = 1, "squeaky cheese" = 1)
 	foodtypes = VEGETABLES | FRIED | MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/poutine/Initialize(mapload)
 	. = ..()
@@ -303,7 +303,7 @@
 	tastes = list("eggplant" = 3, "cheese" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/yakiimo
 	name = "yaki imo"
@@ -384,7 +384,6 @@
 	food_flags = FOOD_FINGER_FOOD
 	slot_flags = ITEM_SLOT_MASK
 	w_class = WEIGHT_CLASS_TINY
-	venue_value = FOOD_PRICE_WORTHLESS
 	var/mutable_appearance/head
 	var/head_color = rgb(0, 0, 0)
 
@@ -491,7 +490,6 @@
 	food_flags = FOOD_FINGER_FOOD
 	slot_flags = ITEM_SLOT_MASK
 	w_class = WEIGHT_CLASS_TINY
-	venue_value = FOOD_PRICE_WORTHLESS
 
 /obj/item/food/gumball/Initialize(mapload)
 	. = ..()
@@ -627,7 +625,7 @@
 	icon_state = "peachcanmaint"
 	trash_type = /obj/item/trash/can/food/peaches/maint
 	tastes = list("peaches" = 1, "tin" = 7)
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/canned/tomatoes
 	name = "canned San Marzano tomatoes"
@@ -657,7 +655,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("cream cheese" = 4, "crab" = 3, "crispiness" = 2)
 	foodtypes = MEAT | DAIRY | GRAIN
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 
 /obj/item/food/rationpack

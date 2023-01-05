@@ -354,7 +354,7 @@
 	tastes = list("bread" = 8, "nuts" = 2)
 	foodtypes = VEGETABLES | NUTS
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 	burns_in_oven = TRUE
 	slice_type = /obj/item/food/breadslice/root
 
@@ -370,7 +370,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	tastes = list("bread" = 8, "nuts" = 2)
 	foodtypes = VEGETABLES | NUTS
-	venue_value = FOOD_PRICE_TRASH
+	
 
 /obj/item/food/breadslice/root/Initialize(mapload)
 	. = ..()

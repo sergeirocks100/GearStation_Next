@@ -9,7 +9,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("pie" = 1)
 	foodtypes = GRAIN
-	venue_value = FOOD_PRICE_NORMAL
+	
 	/// type is spawned 5 at a time and replaces this pie when processed by cutting tool
 	var/obj/item/food/pieslice/slice_type
 	/// so that the yield can change if it isnt 5
@@ -83,7 +83,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 11, /datum/reagent/consumable/berryjuice = 5, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("pie" = 1, "blackberries" = 1)
 	foodtypes = GRAIN | FRUIT | SUGAR
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/pie/bearypie
 	name = "beary pie"
@@ -100,7 +100,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment/protein = 2)
 	tastes = list("pie" = 1, "meat" = 1)
 	foodtypes = GRAIN | MEAT
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/pie/tofupie
 	name = "tofu-pie"
@@ -240,7 +240,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 14, /datum/reagent/consumable/nutriment/vitamin = 8)
 	tastes = list("jelly" = 1, "sweet potato" = 1)
 	foodtypes = VEGETABLES | SUGAR
-	venue_value = FOOD_PRICE_EXOTIC
+	
 	slice_type = /obj/item/food/pieslice/dulcedebatata
 
 /obj/item/food/pieslice/dulcedebatata

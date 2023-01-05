@@ -18,7 +18,7 @@
 	desc = "A delicious and spongy little cake, with berries."
 	tastes = list("muffin" = 3, "berry" = 1)
 	foodtypes = GRAIN | FRUIT | SUGAR | BREAKFAST
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/muffin/booberry
 	name = "booberry muffin"
@@ -269,7 +269,7 @@
 	tastes = list("pastry" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR
 	w_class = WEIGHT_CLASS_TINY
-	venue_value = FOOD_PRICE_CHEAP // Pastry base, 3u of sugar and a single. fucking. unit. of. milk. really?
+	//Pastry base, 3u of sugar and a single. fucking. unit. of. milk. really?
 
 /obj/item/food/icecream
 	name = "waffle cone"
