@@ -16,12 +16,8 @@ GLOBAL_VAR_INIT(running_create_and_destroy, FALSE)
 		/obj/item/slimecross/recurring,
 		//This should be obvious
 		/obj/machinery/doomsday_device,
-		//Yet more templates
-		/obj/machinery/restaurant_portal,
 		//Template type
 		/obj/effect/mob_spawn,
-		//Template type
-		/obj/structure/holosign/robot_seat,
 		//Singleton
 		/mob/dview,
 		//Template type
