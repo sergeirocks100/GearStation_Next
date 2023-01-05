@@ -269,8 +269,8 @@
 	tastes = list("pastry" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR
 	w_class = WEIGHT_CLASS_TINY
-	 // Pastry base, 3u of sugar and a single. fucking. unit. of. milk. really?
-	
+	//Pastry base, 3u of sugar and a single. fucking. unit. of. milk. really?
+
 /obj/item/food/icecream
 	name = "waffle cone"
 	desc = "Delicious waffle cone, but no ice cream."
