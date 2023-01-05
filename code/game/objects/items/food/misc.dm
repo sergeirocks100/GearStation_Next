@@ -384,7 +384,6 @@
 	food_flags = FOOD_FINGER_FOOD
 	slot_flags = ITEM_SLOT_MASK
 	w_class = WEIGHT_CLASS_TINY
-	venue_value = FOOD_PRICE_WORTHLESS
 	var/mutable_appearance/head
 	var/head_color = rgb(0, 0, 0)
 
@@ -491,7 +490,6 @@
 	food_flags = FOOD_FINGER_FOOD
 	slot_flags = ITEM_SLOT_MASK
 	w_class = WEIGHT_CLASS_TINY
-	venue_value = FOOD_PRICE_WORTHLESS
 
 /obj/item/food/gumball/Initialize(mapload)
 	. = ..()

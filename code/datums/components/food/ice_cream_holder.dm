@@ -63,9 +63,6 @@
 	else
 		RegisterSignal(owner, COMSIG_ATOM_UPDATE_DESC, PROC_REF(on_update_desc))
 
-	RegisterSignal(owner, COMSIG_ITEM_IS_CORRECT_CUSTOM_ORDER, PROC_REF(check_food_order))
-
-	RegisterSignal(owner, COMSIG_ITEM_SOLD_TO_CUSTOMER, PROC_REF(sell_ice_cream))
 
 	if(prefill_flavours)
 		for(var/entry in prefill_flavours)
@@ -152,35 +149,6 @@
 	else
 		to_chat(user, span_warning("[source] can't hold anymore ice cream!"))
 	return COMPONENT_CANCEL_ATTACK_CHAIN
-
-/datum/component/ice_cream_holder/proc/check_food_order(obj/item/source, datum/custom_order/our_order)
-	SIGNAL_HANDLER
-	if(!istype(our_order, /datum/custom_order/icecream))
-		return FALSE
-	var/datum/custom_order/icecream/icecream_order = our_order
-	if(parent.type != icecream_order.cone_type) //check that the cone type matches
-		return FALSE
-
-	// We don't want to stop ice creams from being sold because of their order. we aren't that finnicky.
-	var/our_scoops = scoops.Copy()
-	sortTim(our_scoops, cmp = GLOBAL_PROC_REF(cmp_text_asc))
-
-	//Make sure the flavors and number of scoops match.
-	if(compare_list(our_scoops, icecream_order.wanted_flavors))
-		return COMPONENT_CORRECT_ORDER
-
-/datum/component/ice_cream_holder/proc/sell_ice_cream(obj/item/source, mob/living/simple_animal/robot_customer/sold_to, obj/item/container)
-	SIGNAL_HANDLER
-
-	//the price of ice cream scales with the number of scoops. Yummy.
-	var/venue_price = length(scoops) * FOOD_PRICE_TRASH * 2
-
-	var/datum/venue/venue_to_pay = sold_to.ai_controller?.blackboard[BB_CUSTOMER_ATTENDING_VENUE]
-
-	new /obj/item/holochip(get_turf(source), venue_price)
-	venue_to_pay.total_income += venue_price
-	playsound(get_turf(source), 'sound/effects/cashregister.ogg', 60, TRUE)
-
 
 /////ICE CREAM FLAVOUR DATUM STUFF
 
