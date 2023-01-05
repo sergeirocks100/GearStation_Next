@@ -364,7 +364,7 @@
 	overdose_threshold = 80
 	taste_description = "bitterness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+	
 
 /datum/glass_style/drinking_glass/coffee
 	required_drink_type = /datum/reagent/consumable/coffee
@@ -394,7 +394,7 @@
 	nutriment_factor = 0
 	taste_description = "tart black tea"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+	
 
 /datum/glass_style/drinking_glass/tea
 	required_drink_type = /datum/reagent/consumable/tea
@@ -420,7 +420,7 @@
 	quality = DRINK_NICE
 	taste_description = "sunshine and summertime"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+	
 
 /datum/glass_style/drinking_glass/lemonade
 	required_drink_type = /datum/reagent/consumable/lemonade
@@ -892,7 +892,7 @@
 	quality = DRINK_NICE
 	taste_description = "creamy coffee"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+	
 
 /datum/glass_style/drinking_glass/soy_latte
 	required_drink_type = /datum/reagent/consumable/soy_latte
@@ -919,7 +919,7 @@
 	quality = DRINK_NICE
 	taste_description = "bitter cream"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+	
 
 /datum/glass_style/drinking_glass/cafe_latte
 	required_drink_type = /datum/reagent/consumable/cafe_latte
@@ -994,7 +994,7 @@
 	nutriment_factor = 8 * REAGENTS_METABOLISM
 	taste_description = "creamy tart cherry"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+	
 
 /datum/glass_style/drinking_glass/cherryshake
 	required_drink_type = /datum/reagent/consumable/cherryshake
@@ -1027,7 +1027,7 @@
 	nutriment_factor = 8 * REAGENTS_METABOLISM
 	taste_description = "sweet creamy vanilla"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+	
 
 /datum/glass_style/drinking_glass/vanillashake
 	required_drink_type = /datum/reagent/consumable/vanillashake
@@ -1044,7 +1044,7 @@
 	nutriment_factor = 10 * REAGENTS_METABOLISM
 	taste_description = "sweet rich creamy caramel"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+	
 
 /datum/glass_style/drinking_glass/caramelshake
 	required_drink_type = /datum/reagent/consumable/caramelshake
@@ -1061,7 +1061,7 @@
 	nutriment_factor = 8 * REAGENTS_METABOLISM
 	taste_description = "sweet creamy chocolate"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+	
 
 /datum/glass_style/drinking_glass/choccyshake
 	required_drink_type = /datum/reagent/consumable/choccyshake
@@ -1078,7 +1078,7 @@
 	nutriment_factor = 8 * REAGENTS_METABOLISM
 	taste_description = "sweet strawberries and milk"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+	
 
 /datum/glass_style/drinking_glass/strawberryshake
 	required_drink_type = /datum/reagent/consumable/strawberryshake
@@ -1095,7 +1095,7 @@
 	nutriment_factor = 8 * REAGENTS_METABOLISM
 	taste_description = "thick banana"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+	
 
 /datum/glass_style/drinking_glass/bananashake
 	required_drink_type = /datum/reagent/consumable/bananashake

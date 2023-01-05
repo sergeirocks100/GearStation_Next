@@ -191,7 +191,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/nutriment = 4)
 	foodtypes = MEAT | FRIED | BREAKFAST
 	tastes = list("egg" = 4, "meat" = 4)
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/boiledegg/rotten
 	food_reagents = list(/datum/reagent/consumable/eggrot = 10)
@@ -209,7 +209,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("egg" = 1, "cheese" = 1)
 	foodtypes = MEAT | BREAKFAST | DAIRY
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/omelette/attackby(obj/item/item, mob/user, params)
 	if(istype(item, /obj/item/kitchen/fork))
@@ -238,7 +238,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("egg" = 1, "bacon" = 1, "bun" = 1)
 	foodtypes = MEAT | BREAKFAST | GRAIN
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/eggwrap
 	name = "egg wrap"

@@ -3,7 +3,7 @@
 	icon = 'icons/obj/food/spaghetti.dmi'
 	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtypes = GRAIN
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 // Why are you putting cooked spaghetti in your pockets?
 /obj/item/food/spaghetti/make_microwavable()

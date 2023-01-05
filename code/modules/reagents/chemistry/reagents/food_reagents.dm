@@ -923,7 +923,7 @@
 	nutriment_factor = 4 * REAGENTS_METABOLISM
 	taste_description = "sweet chocolate"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+	
 
 /datum/glass_style/drinking_glass/chocolatepudding
 	required_drink_type = /datum/reagent/consumable/chocolatepudding

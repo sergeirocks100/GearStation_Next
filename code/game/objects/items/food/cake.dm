@@ -49,7 +49,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cake" = 5, "sweetness" = 2, "carrot" = 1)
 	foodtypes = GRAIN | DAIRY | VEGETABLES | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/carrot
 
 /obj/item/food/cakeslice/carrot
@@ -84,7 +84,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/nutriment/protein = 5)
 	tastes = list("cake" = 4, "cream cheese" = 3)
 	foodtypes = GRAIN | DAIRY
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/cheese
 
 /obj/item/food/cakeslice/cheese
@@ -102,7 +102,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 2, "oranges" = 2)
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR | ORANGES
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/orange
 
 /obj/item/food/cakeslice/orange
@@ -119,7 +119,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 2, "unbearable sourness" = 2)
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/lime
 
 /obj/item/food/cakeslice/lime
@@ -136,7 +136,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 2, "sourness" = 2)
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/lemon
 
 /obj/item/food/cakeslice/lemon
@@ -153,7 +153,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 1, "chocolate" = 4)
 	foodtypes = GRAIN | DAIRY | JUNKFOOD | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/chocolate
 
 /obj/item/food/cakeslice/chocolate
@@ -235,7 +235,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 1, "apple" = 1)
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/apple
 
 /obj/item/food/cakeslice/apple
@@ -268,7 +268,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cake" = 5, "sweetness" = 1, "pumpkin" = 1)
 	foodtypes = GRAIN | DAIRY | VEGETABLES | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/pumpkinspice
 
 /obj/item/food/cakeslice/pumpkinspice
@@ -333,7 +333,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 60, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cake" = 5, "sweetness" = 5, "batter" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR | JUNKFOOD
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/pound_cake_slice
 	yield = 7
 
@@ -486,7 +486,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/impurity/rosenol = 8)
 	tastes = list("cake" = 5, "sweetness" = 1, "plum" = 2)
 	foodtypes = GRAIN | DAIRY | FRUIT | SUGAR
-	venue_value = FOOD_PRICE_CHEAP
+	
 	slice_type = /obj/item/food/cakeslice/plum
 
 /obj/item/food/cakeslice/plum

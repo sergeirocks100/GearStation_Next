@@ -2958,9 +2958,6 @@
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "aHv" = (
 /obj/structure/rack,
-/obj/item/holosign_creator/robot_seat/restaurant{
-	pixel_y = -5
-	},
 /obj/effect/turf_decal/bot,
 /obj/item/toy/figure/chef,
 /turf/open/floor/iron/dark,
@@ -41255,7 +41252,6 @@
 	pixel_x = -4;
 	pixel_y = 7
 	},
-/obj/item/holosign_creator/robot_seat/bar,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/smooth_half{
 	dir = 1

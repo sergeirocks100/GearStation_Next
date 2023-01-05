@@ -56257,9 +56257,6 @@
 /obj/item/toy/figure/chef{
 	pixel_x = 4
 	},
-/obj/item/holosign_creator/robot_seat/restaurant{
-	pixel_y = -5
-	},
 /turf/open/floor/iron/dark,
 /area/station/service/kitchen)
 "qbY" = (
@@ -65507,7 +65504,6 @@
 	pixel_x = 2;
 	pixel_y = 10
 	},
-/obj/item/holosign_creator/robot_seat/bar,
 /obj/machinery/status_display/evac/directional/west,
 /obj/structure/table,
 /obj/machinery/light/directional/west,

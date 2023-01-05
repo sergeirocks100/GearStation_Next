@@ -9,7 +9,7 @@
 	tastes = list("leaves" = 1)
 	foodtypes = VEGETABLES
 	eatverbs = list("devour", "nibble", "gnaw", "gobble", "chomp") //who the fuck gnaws and devours on a salad
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/salad/aesirsalad
 	name = "\improper Aesir salad"
@@ -85,7 +85,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("rice" = 1, "sweetness" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/salad/ricepork
 	name = "rice and pork"
@@ -102,7 +102,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("rice" = 1, "cheese" = 1)
 	foodtypes = GRAIN | DAIRY
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/salad/eggbowl
 	name = "egg bowl"

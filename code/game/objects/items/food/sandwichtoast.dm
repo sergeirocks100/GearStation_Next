@@ -31,7 +31,7 @@
 	foodtypes = GRAIN | DAIRY
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/cheese_sandwich/MakeGrillable()
 	AddComponent(/datum/component/grillable, /obj/item/food/grilled_cheese_sandwich, rand(30 SECONDS, 60 SECONDS), TRUE)
@@ -130,7 +130,7 @@
 	tastes = list("bun" = 3, "meat" = 2)
 	foodtypes = GRAIN | MEAT //Ketchup is not a vegetable
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 // Used for unit tests, do not delete
 /obj/item/food/hotdog/debug
@@ -146,7 +146,7 @@
 	tastes = list("bun" = 3, "meat" = 2, "fried onion" = 1, "pickles" = 1)
 	foodtypes = GRAIN | MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/blt
 	name = "\improper BLT"

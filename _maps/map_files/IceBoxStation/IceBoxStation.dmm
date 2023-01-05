@@ -48811,7 +48811,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/obj/item/holosign_creator/robot_seat/bar,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/duct,
 /obj/structure/table/wood,
@@ -52489,7 +52488,6 @@
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/item/book/manual/chef_recipes,
-/obj/item/holosign_creator/robot_seat/restaurant,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/service/kitchen)
 "qfh" = (

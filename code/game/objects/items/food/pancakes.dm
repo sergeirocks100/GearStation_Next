@@ -10,7 +10,7 @@
 	foodtypes = GRAIN | SUGAR | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 	burns_on_grill = TRUE
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/pancakes/raw
 	name = "goopy pancake"

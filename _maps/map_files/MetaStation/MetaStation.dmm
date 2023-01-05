@@ -10180,7 +10180,6 @@
 	id = "kitchen_counter";
 	name = "Kitchen Counter Shutters"
 	},
-/obj/item/holosign_creator/robot_seat/restaurant,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "dNw" = (
@@ -25660,7 +25659,6 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced,
-/obj/item/holosign_creator/robot_seat/bar,
 /turf/open/floor/iron,
 /area/station/service/bar)
 "jjL" = (

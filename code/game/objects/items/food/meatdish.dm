@@ -83,7 +83,7 @@
 	tastes = list("fish" = 1, "breadcrumbs" = 1)
 	foodtypes = SEAFOOD | FRIED
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/fishandchips
 	name = "fish and chips"
@@ -93,7 +93,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("fish" = 1, "chips" = 1)
 	foodtypes = SEAFOOD | VEGETABLES | FRIED
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/fishfry
 	name = "fish fry"
@@ -215,7 +215,7 @@
 	tastes = list("earthy" = 3, "nutty" = 2, "bland" = 1 )
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 // sliceable into 4xtempehslices
 /obj/item/food/tempeh/MakeProcessable()
@@ -249,7 +249,7 @@
 	tastes = list("tofu" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/tofu/prison
 	name = "soggy tofu"
@@ -289,7 +289,7 @@
 	tastes = list("meat" = 1, "salmon" = 1)
 	foodtypes = MEAT | ALCOHOL
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/raw_meatball
 	name = "raw meatball"
@@ -345,7 +345,7 @@
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
 	burns_on_grill = TRUE
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/meatball/human
 	name = "strange meatball"
@@ -462,7 +462,7 @@
 	eatverbs = list("bite", "chew", "nibble", "deep throat", "gobble", "chomp")
 	w_class = WEIGHT_CLASS_SMALL
 	burns_on_grill = TRUE
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/sausage/MakeProcessable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/salami, 6, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")
@@ -521,7 +521,7 @@
 	tastes = list("bun" = 3, "meat" = 2)
 	foodtypes = GRAIN | MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/stewedsoymeat
 	name = "stewed soy meat"
@@ -565,7 +565,7 @@
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_TINY
 	//total price of this dish is 20 and a small amount more for soy sauce, all of which are available at the orders console
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/sashimi/Initialize(mapload)
 	. = ..()
@@ -579,7 +579,7 @@
 	foodtypes = MEAT
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_TINY
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/nugget/Initialize(mapload)
 	. = ..()
@@ -627,7 +627,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 1, /datum/reagent/consumable/tomatojuice = 10)
 	tastes = list("meat" = 3, "pasta" = 3, "tomato" = 2, "cheese" = 2)
 	foodtypes = MEAT | DAIRY | GRAIN
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 //////////////////////////////////////////// KEBABS AND OTHER SKEWERS ////////////////////////////////////////////
 
@@ -646,7 +646,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 16, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("tender meat" = 3, "metal" = 1)
 	foodtypes = MEAT | GORE
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/kebab/monkey
 	name = "meat-kebab"
@@ -654,7 +654,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 16, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("meat" = 3, "metal" = 1)
 	foodtypes = MEAT
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/kebab/tofu
 	name = "tofu-kebab"
@@ -662,7 +662,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 15)
 	tastes = list("tofu" = 3, "metal" = 1)
 	foodtypes = VEGETABLES
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/kebab/tail
 	name = "lizard-tail kebab"
@@ -680,7 +680,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 10, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("rat meat" = 1, "metal" = 1)
 	foodtypes = MEAT | GORE
-	venue_value = FOOD_PRICE_CHEAP
+	
 
 /obj/item/food/kebab/rat/double
 	name = "double rat-kebab"
@@ -721,7 +721,7 @@
 
 	w_class = WEIGHT_CLASS_SMALL
 	//basic ingredients, but a lot of them. just covering costs here
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/beef_wellington
 	name = "beef wellington"
@@ -732,7 +732,7 @@
 	tastes = list("beef" = 3, "mushrooms" = 1, "pancetta" = 1)
 	foodtypes = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_NORMAL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/beef_wellington/MakeProcessable()
 	AddElement(/datum/element/processable, TOOL_KNIFE,  /obj/item/food/beef_wellington_slice, 3, 3 SECONDS, table_required = TRUE,  screentip_verb = "Cut")
@@ -746,7 +746,7 @@
 	tastes = list("beef" = 3, "mushrooms" = 1, "pancetta" = 1)
 	foodtypes = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_NORMAL
+	
 
 /obj/item/food/full_english
 	name = "full english breakfast"
@@ -757,7 +757,7 @@
 	tastes = list("sausage" = 1, "bacon" = 1, "egg" = 1, "tomato" = 1, "mushrooms" = 1, "bread" = 1, "beans" = 1)
 	foodtypes = MEAT | VEGETABLES | GRAIN | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
-	venue_value = FOOD_PRICE_EXOTIC
+	
 
 /obj/item/food/raw_meatloaf
 	name = "raw meatloaf"
