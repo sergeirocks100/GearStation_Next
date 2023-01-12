@@ -836,13 +836,13 @@
 	description = "The only drink that will make you unleash the ape."
 	color = "#f39b03" // rgb: 243, 155, 3
 	overdose_threshold = 60
-	taste_description = "barbecue and nostalgia"
+	taste_description = "bananas"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/glass_style/drinking_glass/monkey_energy
 	required_drink_type = /datum/reagent/consumable/monkey_energy
 	name = "glass of Monkey Energy"
-	desc = "You can unleash the ape, but without the pop of the can?"
+	desc = "You can unleash the ape, but without the pop of the can."
 	icon_state = "monkey_energy_glass"
 
 /datum/reagent/consumable/monkey_energy/on_mob_life(mob/living/carbon/affected_mob, delta_time, times_fired)

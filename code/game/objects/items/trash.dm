@@ -164,3 +164,14 @@
 	desc = "It's been Donk-decimated."
 	icon_state = "ready_donk"
 
+/obj/item/trash/coal
+	name = "lump of coal"
+	icon = 'icons/obj/mining.dmi'
+	icon_state = "slag"
+	desc = "Someone's gotten on the naughty list."
+	grind_results = list(/datum/reagent/carbon = 20)
+
+/obj/item/trash/coal/burn()
+	visible_message("<span class='warning'>[src] fuses into a diamond! Someone wasn't so naughty after all...</span>")
+	new /obj/item/stack/ore/diamond(loc)
+	qdel(src)

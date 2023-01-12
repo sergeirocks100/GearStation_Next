@@ -271,11 +271,8 @@
 		/obj/item/toy/plush/lizard_plushie/green = 3,
 		/obj/item/toy/plush/space_lizard_plushie = 3,
 		/obj/item/toy/plush/awakenedplushie = 3,
-		/obj/item/toy/plush/goatplushie = 3,
-		/obj/item/toy/plush/rouny = 3,
 		/obj/item/toy/plush/abductor = 3,
 		/obj/item/toy/plush/abductor/agent = 3,
-		/obj/item/toy/plush/greek_cucumber = 3,
 		// super rare plushies
 		/obj/item/toy/plush/bubbleplush = 2,
 		/obj/item/toy/plush/ratplush = 2,

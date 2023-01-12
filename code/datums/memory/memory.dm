@@ -81,7 +81,6 @@
 		/mob/living/simple_animal/chick,
 		/mob/living/basic/cow/wisdom,
 		/obj/item/skub,
-		/obj/item/food/sausage/american
 	)
 
 	var/list/forewords = strings(MEMORY_FILE, story_type + "_forewords")

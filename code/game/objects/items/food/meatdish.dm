@@ -466,15 +466,6 @@
 
 /obj/item/food/sausage/MakeProcessable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/salami, 6, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")
-	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/sausage/american, 1, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")
-
-/obj/item/food/sausage/american
-	name = "american sausage"
-	desc = "Snip."
-	icon_state = "american_sausage"
-
-/obj/item/food/sausage/american/MakeProcessable()
-	return
 
 /obj/item/food/salami
 	name = "salami"
