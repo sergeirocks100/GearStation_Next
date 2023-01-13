@@ -166,7 +166,7 @@
 
 /obj/item/trash/coal
 	name = "lump of coal"
-	icon = 'icons/obj/mining.dmi'
+	icon = 'icons/obj/ore.dmi'
 	icon_state = "slag"
 	desc = "Someone's gotten on the naughty list."
 	grind_results = list(/datum/reagent/carbon = 20)
