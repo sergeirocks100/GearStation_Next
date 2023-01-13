@@ -56439,10 +56439,6 @@
 /area/station/ai_monitored/turret_protected/aisat/hallway)
 "rsM" = (
 /obj/structure/bed/maint,
-/obj/item/toy/plush/rouny{
-	desc = "What is this? Is this a dog?";
-	name = "Therapy Dog"
-	},
 /obj/structure/cable,
 /obj/machinery/camera/directional/east{
 	c_tag = "Security - Isolation Cell";
