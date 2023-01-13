@@ -1,0 +1,34 @@
+version: v1
+
+# File-based labels.
+
+labels:
+  - label: "Code"
+    sync: true
+    matcher:
+      files: "code/**"
+
+  - label: "Sprites"
+    sync: true
+    matcher:
+      files: "icons/**"
+
+  - label: "Sound"
+    sync: true
+    matcher:
+      files: "sounds/**"
+  
+  - label: "Maps"
+    sync: true
+    matcher:
+      files: "_maps/**"
+      
+# Body-based labels.
+
+  - label: "Fix"
+    matcher:
+      body: "fix:"
+  
+  - label: "Feature"
+    matcher:
+      body: "add:"
