@@ -1165,10 +1165,6 @@
 /obj/machinery/computer/slot_machine,
 /turf/open/floor/wood,
 /area/ruin/powered/beach)
-"NK" = (
-/obj/machinery/grill,
-/turf/open/floor/wood,
-/area/ruin/powered/beach)
 "NV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
 	dir = 4
@@ -1399,11 +1395,6 @@
 /area/ruin/powered/beach)
 "VL" = (
 /obj/machinery/light/small/directional/east,
-/obj/structure/closet/crate{
-	name = "fuel crate"
-	},
-/obj/item/stack/sheet/mineral/coal/ten,
-/obj/item/stack/sheet/mineral/coal/ten,
 /turf/open/floor/plating,
 /area/ruin/powered/beach)
 "VO" = (
@@ -1935,7 +1926,7 @@ aW
 fL
 nI
 RE
-NK
+zT
 aC
 aC
 qy

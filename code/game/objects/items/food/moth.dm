@@ -18,7 +18,7 @@
 	desc = "As prescribed by Lord Alton, blessed be his name, 99.997% of the world's recipes for grilled cheese flat out lie: never once is the cheese grilled, it is merely a griddled sandwich containing melted cheese. This, on the other hand, is truly grilled cheese, grillmarks and all."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "grilled_cheese"
-	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/char = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 8)
 	tastes = list("cheese" = 1, "char" = 1)
 	foodtypes = DAIRY
 	w_class = WEIGHT_CLASS_SMALL
@@ -195,7 +195,7 @@
 	desc = "A cob of corn, baked in the roasting heat of an oven until it blisters and blackens. Beloved as a quick yet flavourful and filling component for dishes on the Fleet."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "oven_baked_corn"
-	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/consumable/char = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("corn" = 1, "char" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
@@ -206,7 +206,7 @@
 	desc = "What's better than baked corn? Baked corn with butter!"
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "buttered_baked_corn"
-	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/consumable/char = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/nutriment/vitamin = 6,)
 	tastes = list("corn" = 1, "char" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
@@ -216,7 +216,7 @@
 	desc = "Sweet, spicy, saucy, and all kinds of corny."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "fiesta_corn_skillet"
-	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/consumable/char = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("corn" = 1, "chili" = 1, "char" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
@@ -226,7 +226,7 @@
 	desc = "Sliced vegetables with a roasted pepper sauce. Delicious, for a peasant food."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "raw_ratatouille"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/char = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 8)
 	tastes = list("veggies" = 1, "roasted peppers" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
@@ -239,7 +239,7 @@
 	desc = "The perfect dish to save your restaurant from a vindictive food critic. Bonus points if you've got a rat in your hat."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "ratatouille"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/consumable/char = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("veggies" = 1, "roasted peppers" = 1, "char" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL

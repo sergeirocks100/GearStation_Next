@@ -31,7 +31,7 @@
 /turf/open/floor/holofloor/snow,
 /area/template_noop)
 "n" = (
-/obj/item/stack/sheet/mineral/coal{
+/obj/item/trash/coal{
 	pixel_x = -8;
 	pixel_y = -4
 	},

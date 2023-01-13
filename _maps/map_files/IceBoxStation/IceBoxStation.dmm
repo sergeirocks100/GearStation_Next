@@ -32196,11 +32196,6 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
-"jQo" = (
-/obj/effect/turf_decal/tile/neutral/diagonal_edge,
-/obj/machinery/grill,
-/turf/open/floor/iron/kitchen/diagonal,
-/area/station/service/kitchen)
 "jQw" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -56444,10 +56439,6 @@
 /area/station/ai_monitored/turret_protected/aisat/hallway)
 "rsM" = (
 /obj/structure/bed/maint,
-/obj/item/toy/plush/rouny{
-	desc = "What is this? Is this a dog?";
-	name = "Therapy Dog"
-	},
 /obj/structure/cable,
 /obj/machinery/camera/directional/east{
 	c_tag = "Security - Isolation Cell";
@@ -248514,7 +248505,7 @@ ggD
 ifg
 qZB
 gtw
-jQo
+xHi
 vMq
 eUw
 jZt
