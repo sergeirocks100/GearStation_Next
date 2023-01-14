@@ -11,7 +11,7 @@
 
 	var/obj/item/human_shoes = morphing_human.get_item_by_slot(ITEM_SLOT_FEET)
 	human_shoes.supports_variations_flags = NONE //do not fit lizards at all costs.
-	morphing_human.set_species(/datum/species/lizard)
+	morphing_human.set_species(/datum/species/lizard/ashwalker)
 	var/obj/item/lizard_shoes = morphing_human.get_item_by_slot(ITEM_SLOT_FEET)
 
 	TEST_ASSERT_NOTEQUAL(human_shoes, lizard_shoes, "Lizard still has shoes after changing species.")

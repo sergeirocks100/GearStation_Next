@@ -136,7 +136,6 @@ Lizard subspecies: ASHWALKERS
 		//TRAIT_LITERATE,
 		TRAIT_VIRUSIMMUNE,
 	)
-	mutant_bodyparts = list("body_markings" = "None", "legs" = "Normal Legs")
 	species_language_holder = /datum/language_holder/lizard/ash
 	digitigrade_customization = DIGITIGRADE_FORCED
 	examine_limb_id = SPECIES_LIZARD
