@@ -1,0 +1,4 @@
+author: "sergeirocks100"
+delete-after: True
+changes:
+  - rscadd: "Lizardpeople can no longer have digitigrade legs. Ashwalkers, however, still have them."
