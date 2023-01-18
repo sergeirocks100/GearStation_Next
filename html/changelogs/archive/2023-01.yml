@@ -12,3 +12,7 @@
   sergeirocks100:
   - rscadd: Lizardpeople can no longer have digitigrade legs. Ashwalkers, however,
       still have them.
+2023-01-18:
+  sergeirocks100:
+  - rscdel: Fried eggs are back to being made with the crafting menu, instead of the
+      griddle.
