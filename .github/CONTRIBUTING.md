@@ -199,7 +199,7 @@ Adding any of the following in a Pull Request requires prior approval from a mai
 
 ## Banned content
 Do not add any of the following in a Pull Request or risk getting the PR closed:
-* Code where one line of code is split across mutiple lines (except for multiple, separate strings and comments; in those cases, existing longer lines must not be split up)
+* Code where one line of code is split across multiple lines (except for multiple, separate strings and comments; in those cases, existing longer lines must not be split up.).
 * Any assets or code that are under non-free licenses.
 * Anything that relies on Extools, Auxtools, or any other BYOND version dependent external DLLs to function.
 * Anything that contains in-game references to real world news events, popular culture, or internet memes.
