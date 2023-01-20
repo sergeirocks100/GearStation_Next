@@ -111,11 +111,3 @@
 	select_name = "bullet"
 	e_cost = 120
 	fire_sound = 'sound/weapons/thermalpistol.ogg'
-
-/obj/item/ammo_casing/energy/nanite/inferno
-	projectile_type = /obj/projectile/energy/inferno
-	select_name = "inferno"
-
-/obj/item/ammo_casing/energy/nanite/cryo
-	projectile_type = /obj/projectile/energy/cryo
-	select_name = "cryo"

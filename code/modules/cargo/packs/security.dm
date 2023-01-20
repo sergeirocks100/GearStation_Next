@@ -5,12 +5,12 @@
 
 /datum/supply_pack/security/ammo
 	name = "Ammo Crate"
-	desc = "Contains three boxes of beanbag shotgun shells, three boxes \
+	desc = "Contains two 20-round magazines for the WT-550 Auto Rifle, three boxes \
 		of rubbershot shotgun shells and one of each special .38 speedloaders. \
 		Requires Security access to open."
 	cost = CARGO_CRATE_VALUE * 8
 	access_view = ACCESS_ARMORY
-	contains = list(/obj/item/storage/box/beanbag = 3,
+	contains = list(/obj/item/ammo_box/magazine/wt550m9 = 2,
 					/obj/item/storage/box/rubbershot = 3,
 					/obj/item/ammo_box/c38/trac,
 					/obj/item/ammo_box/c38/hotshot,
@@ -350,33 +350,23 @@
 				)
 	crate_name = "swat crate"
 
-/datum/supply_pack/security/armory/thermal
-	name = "Thermal Pistol Crate"
-	desc = "Contains a pair of holsters each with two experimental thermal pistols, \
-		using nanites as the basis for their ammo. Requires Armory access to open."
-	cost = CARGO_CRATE_VALUE * 7
-	contains = list(/obj/item/storage/belt/holster/thermal = 2)
-	crate_name = "thermal pistol crate"
-
 /datum/supply_pack/security/armory/wt550
-	name = "Recalled Weapon Pack"
-	desc = "Contains a set of old Nanotrasen brand autorifles recalled due to choking hazard."
+	name = "WT-550 Auto Rifle Crate"
+	desc = "Contains two high-powered, semiautomatic rifles chambered in 4.6x30mm. Requires Armory access to open."
 	cost = CARGO_CRATE_VALUE * 7
-	hidden = TRUE
 	contains = list(
 		/obj/item/gun/ballistic/automatic/wt550 = 2,
 		/obj/item/ammo_box/magazine/wt550m9 = 2,
 	)
-	crate_name = "Recalled rifle crate"
+	crate_name = "wt-550 auto rifle crate"
 
 /datum/supply_pack/security/armory/wt550ammo
-	name = "Recalled Ammo Pack"
-	desc = "Contains four 20-round magazine for the Recalled WT-550 Auto Rifle. \
-	Each magazine is designed to facilitate rapid tactical reloads. Recalled due to Security demands."
+	name = "WT-550 Standard Ammo Crate"
+	desc = "Contains four 20-round magazines for the WT-550 Auto Rifle. \
+	Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open."
 	cost = CARGO_CRATE_VALUE * 4
-	hidden = TRUE
 	contains = list(
 		/obj/item/ammo_box/magazine/wt550m9 = 4,
 	)
-	crate_name = "Ammo box"
+	crate_name = "wt-550 standard ammo crate"
 

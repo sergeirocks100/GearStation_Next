@@ -1561,6 +1561,18 @@
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
+/datum/techweb_node/ballistic_weapons
+	id = "ballistic_weapons"
+	display_name = "Ballistic Weaponry"
+	description = "This isn't research.. This is reverse-engineering!"
+	prereq_ids = list("weaponry")
+	design_ids = list(
+		"mag_oldsmg",
+		"mag_oldsmg_ap",
+		"mag_oldsmg_ic",
+	)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
+
 /datum/techweb_node/exotic_ammo
 	id = "exotic_ammo"
 	display_name = "Exotic Ammunition"
