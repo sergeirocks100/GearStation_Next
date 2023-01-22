@@ -54,7 +54,6 @@
 		/obj/item/gun/energy/e_gun/mini,
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/dueling,
-		/obj/item/gun/energy/laser/thermal
 		))
 
 /obj/item/storage/belt/holster/detective/full/PopulateContents()
