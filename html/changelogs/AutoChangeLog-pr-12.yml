@@ -1,0 +1,5 @@
+author: "sergeirocks100"
+delete-after: True
+changes:
+  - rscdel: "Temperature revolvers have been removed."
+  - rscadd: "WT-550s can once again be purchased through cargo normally, and the WT-550 goody packs have been readded."
