@@ -28,30 +28,7 @@
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/dueling,
 		/obj/item/food/grown/banana,
-		/obj/item/gun/energy/laser/thermal
 		))
-
-/obj/item/storage/belt/holster/thermal
-	name = "thermal shoulder holsters"
-	desc = "A rather plain pair of shoulder holsters with a bit of insulated padding inside. Meant to hold a twinned pair of thermal pistols, but can fit several kinds of energy handguns as well."
-
-/obj/item/storage/belt/holster/thermal/Initialize(mapload)
-	. = ..()
-	atom_storage.max_slots = 2
-	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
-	atom_storage.set_holdable(list(
-		/obj/item/gun/energy/e_gun/mini,
-		/obj/item/gun/energy/disabler,
-		/obj/item/gun/energy/dueling,
-		/obj/item/food/grown/banana,
-		/obj/item/gun/energy/laser/thermal
-		))
-
-/obj/item/storage/belt/holster/thermal/PopulateContents()
-	generate_items_inside(list(
-		/obj/item/gun/energy/laser/thermal/inferno = 1,
-		/obj/item/gun/energy/laser/thermal/cryo = 1,
-	),src)
 
 /obj/item/storage/belt/holster/detective
 	name = "detective's holster"
@@ -77,7 +54,6 @@
 		/obj/item/gun/energy/e_gun/mini,
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/dueling,
-		/obj/item/gun/energy/laser/thermal
 		))
 
 /obj/item/storage/belt/holster/detective/full/PopulateContents()
