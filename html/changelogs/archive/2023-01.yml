@@ -16,3 +16,8 @@
   sergeirocks100:
   - rscdel: Fried eggs are back to being made with the crafting menu, instead of the
       griddle.
+2023-01-24:
+  sergeirocks100:
+  - rscdel: Temperature revolvers have been removed.
+  - rscadd: WT-550s can once again be purchased through cargo normally, and the WT-550
+      goody packs have been readded.
