@@ -58027,16 +58027,6 @@
 /turf/open/floor/iron,
 /area/station/security/processing)
 "rUl" = (
-/obj/structure/rack,
-/obj/item/storage/box/rubbershot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/box/rubbershot,
-/obj/item/storage/box/rubbershot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
 /obj/structure/window/reinforced{
 	dir = 1;
 	layer = 2.9
@@ -58044,6 +58034,13 @@
 /obj/effect/turf_decal/tile/red/half{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/armory2,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/rubbershot,
+/obj/item/storage/box/rubbershot,
+/obj/item/storage/box/rubbershot,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
 "rUo" = (
