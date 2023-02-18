@@ -1,0 +1,6 @@
+author: "sergeirocks100"
+delete-after: True
+changes:
+  - rscadd: "The shotgun lethal rounds closet has been readded to all maps."
+  - rscadd: "Buckshot and shotgun slugs can once again be printed from hacked autolathes."
+  - rscadd: "Buckshot has been readded to the ammo crate."
