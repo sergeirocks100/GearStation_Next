@@ -6,11 +6,13 @@
 /datum/supply_pack/security/ammo
 	name = "Ammo Crate"
 	desc = "Contains two 20-round magazines for the WT-550 Auto Rifle, three boxes \
-		of rubbershot shotgun shells and one of each special .38 speedloaders. \
+		of buckshot shotgun shells, three boxes of rubbershot shotgun shells and \
+		one of each special .38 speedloaders. \
 		Requires Security access to open."
 	cost = CARGO_CRATE_VALUE * 8
 	access_view = ACCESS_ARMORY
 	contains = list(/obj/item/ammo_box/magazine/wt550m9 = 2,
+					/obj/item/storage/box/lethalshot = 3,
 					/obj/item/storage/box/rubbershot = 3,
 					/obj/item/ammo_box/c38/trac,
 					/obj/item/ammo_box/c38/hotshot,
