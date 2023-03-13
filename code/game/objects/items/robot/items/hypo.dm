@@ -73,6 +73,9 @@
 		/datum/reagent/toxin/fakebeer,\
 		/datum/reagent/consumable/ethanol/fernet\
 	)
+#define BASE_STANDARD_REAGENTS list(\
+		/datum/reagent/medicine/epinephrine\
+	)
 
 ///Borg Hypospray
 /obj/item/reagent_containers/borghypo
@@ -377,6 +380,11 @@
 	tgui_theme = "syndicate"
 	dispensed_temperature = WATER_MATTERSTATE_CHANGE_TEMP
 	default_reagent_types = HACKED_SERVICE_REAGENTS
+	
+/obj/item/reagent_containers/borghypo/epi
+	name = "epinephrine injector"
+	desc = "An advanced chemical synthesizer and injection system, designed to stabilize patients."
+	default_reagent_types = BASE_STANDARD_REAGENTS
 
 #undef BASE_MEDICAL_REAGENTS
 #undef EXPANDED_MEDICAL_REAGENTS
@@ -388,3 +396,4 @@
 #undef BASE_SYNDICATE_REAGENTS
 #undef BASE_SERVICE_REAGENTS
 #undef HACKED_SERVICE_REAGENTS
+#undef BASE_STANDARD_REAGENTS

@@ -616,8 +616,8 @@
 		/obj/item/restraints/handcuffs/cable/zipties,
 		/obj/item/soap/nanotrasen,
 		/obj/item/borg/cyborghug)
-	emag_modules = list(/obj/item/melee/transforming/energy/sword/cyborg)
-	moduleselect_icon = "standard"
+	emag_modules = list(/obj/item/melee/energy/sword/cyborg)
+	model_select_icon = "standard"
 	hat_offset = -3
 
 /obj/item/robot_model/medical
