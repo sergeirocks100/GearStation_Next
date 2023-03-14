@@ -176,6 +176,7 @@
 		return
 
 	var/list/model_list = list(
+		"Standard" = /obj/item/robot_model/standard,
 		"Engineering" = /obj/item/robot_model/engineering,
 		"Medical" = /obj/item/robot_model/medical,
 		"Miner" = /obj/item/robot_model/miner,
