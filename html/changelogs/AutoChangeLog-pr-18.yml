@@ -1,0 +1,4 @@
+author: "sergeirocks100"
+delete-after: True
+changes:
+  - rscdel: "The human sprites have been reverted to the old ones."
