@@ -70,8 +70,9 @@ Maintainers can revert your changes if they feel they are not worth maintaining 
 <details>
 <summary>Maintainer Guidelines</summary>
 
-These are the few directives we have for project maintainers.
+These are the directives we have for project maintainers.
 
+- Do not merge PRs without prior headcoder approval, unless no headcoder reply is given afer 7 days.
 - Do not merge PRs you create.
 - Do not merge PRs until 24 hours have passed since it was opened. Exceptions include:
   - Emergency fixes.
