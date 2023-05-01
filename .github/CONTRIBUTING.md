@@ -72,7 +72,7 @@ Maintainers can revert your changes if they feel they are not worth maintaining 
 
 These are the directives we have for project maintainers.
 
-- Do not merge PRs without prior headcoder approval, unless no headcoder reply is given afer 7 days.
+- Do not merge PRs without prior headcoder approval, unless the PR's changes don't have a major impact on the intended playability or appearance of the game (bugfixes, quality-of-life improvements, etc.), or no headcoder reply is given afer 7 days.
 - Do not merge PRs you create.
 - Do not merge PRs until 24 hours have passed since it was opened. Exceptions include:
   - Emergency fixes.
@@ -80,6 +80,7 @@ These are the directives we have for project maintainers.
   - PRs with empty commits intended to generate a changelog.
 - Do not merge PRs that contain content from the [banned content list](./CONTRIBUTING.md#banned-content).
 - Do not close PRs purely for breaking a template if the same information is contained without it.
+- Do not modify the body or title of a PR you didn't create without prior headcoder approval.
 
 These are not steadfast rules as maintainers are expected to use their best judgement when operating.
 
