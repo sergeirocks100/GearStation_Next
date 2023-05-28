@@ -72,15 +72,15 @@ Maintainers can revert your changes if they feel they are not worth maintaining 
 
 These are the directives we have for project maintainers.
 
-- Do not merge PRs without prior headcoder approval, unless the PR's changes don't have a major impact on the intended playability or appearance of the game (bugfixes, quality-of-life improvements, etc.), or no headcoder reply is given afer 7 days.
-- Do not merge PRs you create.
-- Do not merge PRs until 24 hours have passed since it was opened. Exceptions include:
+- Do not merge pull requests without prior headcoder approval, unless the pull request's changes don't have a major impact on the intended playability or appearance of the game (bugfixes, quality-of-life improvements, etc.), or no headcoder reply is given within 3 days of the pull request being opened.
+- Do not merge pull requests you create.
+- Do not merge pull requests until 24 hours have passed since it was opened. Exceptions include:
   - Emergency fixes.
     - Try to get secondary maintainer approval before merging if you are able to.
-  - PRs with empty commits intended to generate a changelog.
-- Do not merge PRs that contain content from the [banned content list](./CONTRIBUTING.md#banned-content).
-- Do not close PRs purely for breaking a template if the same information is contained without it.
-- Do not modify the body or title of a PR you didn't create without prior headcoder approval.
+  - Pull requests with empty commits intended to generate a changelog.
+- Do not merge pull requests that contain content from the [banned content list](./CONTRIBUTING.md#banned-content).
+- Do not close pull requests purely for breaking a template if the same information is contained without it.
+- Do not modify the body or title of a pull request you didn't create without prior headcoder approval.
 
 These are not steadfast rules as maintainers are expected to use their best judgement when operating.
 
@@ -100,10 +100,10 @@ This should help you understand what you can and can't do with your newfound git
 Things you **CAN** do:
 * Label issues appropriately
 * Close issues when appropriate
-* Label PRs.
+* Label pull requests.
 
 Things you **CAN'T** do:
-* [Close PRs](https://imgur.com/w2RqpX8.png): Only maintainers are allowed to close PRs. Do not hit that button.
+* [Close pull requests](https://imgur.com/w2RqpX8.png): Only maintainers are allowed to close pull requests. Do not hit that button.
 * Close issues purely for breaking a template if the same information is contained without it.
 
 </details>
