@@ -1,0 +1,5 @@
+author: "sergeirocks100"
+delete-after: True
+changes:
+  - imageadd: "There is now a whole new set of general use emoticons."
+  - imagedel: "The Picard, thinking, pensive, up, down, clap, joy, flushed, eggplant, B, LSD, Clocky, and plasmeme emoticons have all been removed."
