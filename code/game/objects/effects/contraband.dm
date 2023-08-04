@@ -922,11 +922,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	desc = "The Owl would do his best to protect the station. Will you?"
 	icon_state = "the_owl"
 
-/obj/structure/sign/poster/official/no_erp
-	name = "No ERP"
-	desc = "This poster reminds the crew that Eroticism, Rape and Pornography are banned on Nanotrasen stations."
-	icon_state = "no_erp"
-
 /obj/structure/sign/poster/official/wtf_is_co2
 	name = "Carbon Dioxide"
 	desc = "This informational poster teaches the viewer what carbon dioxide is."
