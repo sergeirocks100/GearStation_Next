@@ -513,7 +513,10 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "A poster advertising a movie about some masked men."
 	icon_state = "masked_men"
 
-//don't forget, you're here forever
+/obj/structure/sign/poster/contraband/here_forever
+	name = "Don't Forget, You're Here Forever"
+	desc = "A poster reminding Nanotrasen employees of how long they're going to be working for the company."
+	icon_state = "here_forever"
 
 /obj/structure/sign/poster/contraband/free_key
 	name = "Free Syndicate Encryption Key"
@@ -529,11 +532,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	name = "The Big Gas Giant Truth"
 	desc = "Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOM?"
 	icon_state = "the_big_gas_giant_truth"
-
-/obj/structure/sign/poster/contraband/got_wood
-	name = "Got Wood?"
-	desc = "A grimy old advert for a seedy lumber company. \"You got a friend in me.\" is scrawled in the corner."
-	icon_state = "got_wood"
 
 /obj/structure/sign/poster/contraband/moffuchis_pizza
 	name = "Moffuchi's Pizza"

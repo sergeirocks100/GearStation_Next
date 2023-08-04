@@ -152,8 +152,8 @@
 	loot = list(/obj/effect/decal/cleanable/crayon)
 	var/graffiti_icons = list(
 		"rune1", "rune2", "rune3", "rune4", "rune5", "rune6",
-		"amyjon", "face", "matt", "revolution", "engie", "guy",
-		"end", "dwarf", "uboa", "body", "cyka", "star", "poseur tag",
+		"face", "revolution", "engie", "guy",
+		"end", "uboa", "body", "cyka", "star", "poseur tag",
 		"prolizard", "antilizard", "danger", "firedanger", "electricdanger",
 		"biohazard", "radiation", "safe", "evac", "space", "med", "trade", "shop",
 		"food", "peace", "like", "skull", "nay", "heart", "credit",

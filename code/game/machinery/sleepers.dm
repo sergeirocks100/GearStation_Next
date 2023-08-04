@@ -336,8 +336,8 @@
 			/datum/reagent/consumable/laughter,
 		),
 		list(
-			/datum/reagent/spraytan,
 			/datum/reagent/barbers_aid,
+			/datum/reagent/consumable/ethanol/gargle_blaster,
 		),
 		list(
 			/datum/reagent/colorful_reagent,

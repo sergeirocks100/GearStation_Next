@@ -439,7 +439,7 @@
 	name = "Space Lube"
 	description = "Lubricant is a substance introduced between two moving surfaces to reduce the friction and wear between them. giggity."
 	color = "#009CA8" // rgb: 0, 156, 168
-	taste_description = "cherry" // by popular demand
+	taste_description = "industrial chemicals"
 	var/lube_kind = TURF_WET_LUBE ///What kind of slipperiness gets added to turfs
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -456,109 +456,6 @@
 	description = "This \[REDACTED\] has been outlawed after the incident on \[DATA EXPUNGED\]."
 	lube_kind = TURF_WET_SUPERLUBE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
-
-/datum/reagent/spraytan
-	name = "Spray Tan"
-	description = "A substance applied to the skin to darken the skin."
-	color = "#FFC080" // rgb: 255, 196, 128  Bright orange
-	metabolization_rate = 10 * REAGENTS_METABOLISM // very fast, so it can be applied rapidly.  But this changes on an overdose
-	overdose_threshold = 11 //Slightly more than one un-nozzled spraybottle.
-	taste_description = "sour oranges"
-	ph = 5
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/spraytan/expose_mob(mob/living/exposed_mob, methods=TOUCH, reac_volume, show_message = TRUE)
-	. = ..()
-	if(ishuman(exposed_mob))
-		if(methods & (PATCH|VAPOR))
-			var/mob/living/carbon/human/exposed_human = exposed_mob
-			if(exposed_human.dna.species.id == SPECIES_HUMAN)
-				switch(exposed_human.skin_tone)
-					if("african1")
-						exposed_human.skin_tone = "african2"
-					if("indian")
-						exposed_human.skin_tone = "african1"
-					if("arab")
-						exposed_human.skin_tone = "indian"
-					if("asian2")
-						exposed_human.skin_tone = "arab"
-					if("asian1")
-						exposed_human.skin_tone = "asian2"
-					if("mediterranean")
-						exposed_human.skin_tone = "african1"
-					if("latino")
-						exposed_human.skin_tone = "mediterranean"
-					if("caucasian3")
-						exposed_human.skin_tone = "mediterranean"
-					if("caucasian2")
-						exposed_human.skin_tone = pick("caucasian3", "latino")
-					if("caucasian1")
-						exposed_human.skin_tone = "caucasian2"
-					if ("albino")
-						exposed_human.skin_tone = "caucasian1"
-
-			if(MUTCOLORS in exposed_human.dna.species.species_traits) //take current alien color and darken it slightly
-				var/newcolor = ""
-				var/string = exposed_human.dna.features["mcolor"]
-				var/len = length(string)
-				var/char = ""
-				var/ascii = 0
-				for(var/i=1, i<=len, i += length(char))
-					char = string[i]
-					ascii = text2ascii(char)
-					switch(ascii)
-						if(48)
-							newcolor += "0"
-						if(49 to 57)
-							newcolor += ascii2text(ascii-1) //numbers 1 to 9
-						if(97)
-							newcolor += "9"
-						if(98 to 102)
-							newcolor += ascii2text(ascii-1) //letters b to f lowercase
-						if(65)
-							newcolor += "9"
-						if(66 to 70)
-							newcolor += ascii2text(ascii+31) //letters B to F - translates to lowercase
-						else
-							break
-				if(ReadHSV(newcolor)[3] >= ReadHSV("#7F7F7F")[3])
-					exposed_human.dna.features["mcolor"] = newcolor
-			exposed_human.update_body(is_creating = TRUE)
-
-		if((methods & INGEST) && show_message)
-			to_chat(exposed_mob, span_notice("That tasted horrible."))
-
-
-/datum/reagent/spraytan/overdose_process(mob/living/affected_mob, delta_time, times_fired)
-	metabolization_rate = 1 * REAGENTS_METABOLISM
-
-	if(ishuman(affected_mob))
-		var/mob/living/carbon/human/affected_human = affected_mob
-		if(!HAS_TRAIT(affected_human, TRAIT_BALD))
-			affected_human.hairstyle = "Spiky"
-		affected_human.facial_hairstyle = "Shaved"
-		affected_human.facial_hair_color = "#000000"
-		affected_human.hair_color = "#000000"
-		if(!(HAIR in affected_human.dna.species.species_traits)) //No hair? No problem!
-			affected_human.dna.species.species_traits += HAIR
-		if(affected_human.dna.species.use_skintones)
-			affected_human.skin_tone = "orange"
-		else if(MUTCOLORS in affected_human.dna.species.species_traits) //Aliens with custom colors simply get turned orange
-			affected_human.dna.features["mcolor"] = "#ff8800"
-		affected_human.update_body(is_creating = TRUE)
-		if(DT_PROB(3.5, delta_time))
-			if(affected_human.w_uniform)
-				affected_mob.visible_message(pick("<b>[affected_mob]</b>'s collar pops up without warning.</span>", "<b>[affected_mob]</b> flexes [affected_mob.p_their()] arms."))
-			else
-				affected_mob.visible_message("<b>[affected_mob]</b> flexes [affected_mob.p_their()] arms.")
-	if(DT_PROB(5, delta_time))
-		affected_mob.say(pick("Shit was SO cash.", "You are everything bad in the world.", "What sports do you play, other than 'jack off to naked drawn Japanese people?'", "Don???t be a stranger. Just hit me with your best shot.", "My name is John and I hate every single one of you."), forced = /datum/reagent/spraytan)
-	..()
-	return
-
-#define MUT_MSG_IMMEDIATE 1
-#define MUT_MSG_EXTENDED 2
-#define MUT_MSG_ABOUT2TURN 3
 
 /datum/reagent/mutationtoxin
 	name = "Stable Mutation Toxin"
