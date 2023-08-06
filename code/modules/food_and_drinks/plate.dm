@@ -87,7 +87,7 @@
 
 /obj/item/plate/large
 	name = "buffet plate"
-	desc = "A large plate made for the professional catering industry but also apppreciated by mukbangers and other persons of considerable size and heft."
+	desc = "A large plate made for the professional catering industry, but also apppreciated by competitive eaters, and other persons of considerable size and heft."
 	icon_state = "plate_large"
 	max_items = 12
 	max_x_offset = 8

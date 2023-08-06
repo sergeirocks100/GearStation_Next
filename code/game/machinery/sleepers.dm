@@ -336,8 +336,8 @@
 			/datum/reagent/consumable/laughter,
 		),
 		list(
-			/datum/reagent/spraytan,
 			/datum/reagent/barbers_aid,
+			/datum/reagent/consumable/ethanol/gargle_blaster,
 		),
 		list(
 			/datum/reagent/colorful_reagent,
@@ -350,7 +350,6 @@
 	)
 	///Chemicals that need to have a touch or vapor reaction to be applied, not the standard chamber reaction.
 	var/spray_chems = list(
-		/datum/reagent/spraytan,
 		/datum/reagent/hair_dye,
 		/datum/reagent/baldium,
 		/datum/reagent/barbers_aid,
