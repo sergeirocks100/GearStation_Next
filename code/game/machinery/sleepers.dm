@@ -350,7 +350,6 @@
 	)
 	///Chemicals that need to have a touch or vapor reaction to be applied, not the standard chamber reaction.
 	var/spray_chems = list(
-		/datum/reagent/spraytan,
 		/datum/reagent/hair_dye,
 		/datum/reagent/baldium,
 		/datum/reagent/barbers_aid,
