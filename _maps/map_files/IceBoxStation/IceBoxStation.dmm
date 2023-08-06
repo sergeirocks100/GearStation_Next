@@ -15972,12 +15972,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
-"eOm" = (
-/obj/structure/sign/poster/official/no_erp{
-	pixel_x = -32
-	},
-/turf/closed/wall,
-/area/station/maintenance/starboard/fore)
 "eOv" = (
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=1";
@@ -69278,9 +69272,6 @@
 /turf/open/floor/iron/smooth_half,
 /area/station/security/brig/upper)
 "vve" = (
-/obj/structure/sign/poster/official/no_erp{
-	pixel_x = -32
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
@@ -257219,7 +257210,7 @@ kKL
 kKL
 kKL
 kKL
-eOm
+kKL
 kKL
 kKL
 kKL

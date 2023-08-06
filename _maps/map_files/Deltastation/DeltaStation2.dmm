@@ -99479,9 +99479,6 @@
 "ylB" = (
 /obj/machinery/light/small/directional/west,
 /obj/item/clothing/suit/caution,
-/obj/structure/sign/poster/official/no_erp{
-	pixel_x = -30
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},

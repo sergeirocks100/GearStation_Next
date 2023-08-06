@@ -1843,9 +1843,6 @@
 /turf/open/floor/carpet,
 /area/awaymission/snowdin/post/dorm)
 "ft" = (
-/obj/structure/sign/poster/official/no_erp{
-	pixel_x = -32
-	},
 /obj/machinery/holopad,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -6989,8 +6986,8 @@
 	dir = 4;
 	dwidth = 3;
 	height = 6;
-	shuttle_id = "snowdin_excavation_down";
 	name = "snowdin excavation down";
+	shuttle_id = "snowdin_excavation_down";
 	width = 6
 	},
 /turf/open/floor/plating/elevatorshaft,
@@ -11850,9 +11847,9 @@
 	dir = 4;
 	dwidth = 3;
 	height = 6;
-	shuttle_id = "snowdin_excavation_top";
 	name = "snowdin excavation top";
 	roundstart_template = /datum/map_template/shuttle/snowdin/excavation;
+	shuttle_id = "snowdin_excavation_top";
 	width = 6
 	},
 /turf/open/floor/plating/elevatorshaft{
@@ -12897,9 +12894,9 @@
 	dir = 4;
 	dwidth = 2;
 	height = 5;
-	shuttle_id = "snowdin_mining_top";
 	name = "snowdin mining top";
 	roundstart_template = /datum/map_template/shuttle/snowdin/mining;
+	shuttle_id = "snowdin_mining_top";
 	width = 5
 	},
 /turf/open/floor/plating/elevatorshaft,
@@ -13466,8 +13463,8 @@
 	dir = 4;
 	dwidth = 2;
 	height = 5;
-	shuttle_id = "snowdin_mining_down";
 	name = "snowdin mining bottom";
+	shuttle_id = "snowdin_mining_down";
 	width = 5
 	},
 /turf/open/floor/plating/elevatorshaft,

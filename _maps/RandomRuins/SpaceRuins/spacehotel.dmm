@@ -1273,13 +1273,6 @@
 /obj/machinery/shower/directional/south,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/hotel/bar)
-"lh" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/sign/poster/official/no_erp{
-	pixel_y = 32
-	},
-/turf/open/floor/iron/dark/side,
-/area/ruin/space/has_grav/hotel)
 "lj" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
@@ -7096,7 +7089,7 @@ uK
 en
 Cw
 QN
-lh
+sK
 cf
 iM
 cf
