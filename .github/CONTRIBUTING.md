@@ -195,7 +195,7 @@ Because GearStation is a codebase that believes in software freedom. assets or c
 
 A: Replace all of the offending assets with ones that you created yourself, or are otherwise under a license that GearStation accepts.
 
-B: Get written permission from the original creator(s) to sublicense the assets under Creative Commons BY-SA 3.0, or, failing that, another license that GearStation accepts.
+B: Get written permission from the original creator(s) to sublicense the assets under Creative Commons BY-SA 3.0, or, failing that, another license that GearStation accepts. Be sure that you get it sublicensed under an actual license; simply getting a "Hey, you can use this." or something similar won't be enough.
 
 When it comes to code that's under non-free licenses, you should follow similar procedures. You should strongly considier rewriting the offending code from scratch instead of getting it sublicensed, as most codebases that are under non-free licenses are strongly divorced from other codebases in their programming practices, and it may take more work to try to make it work on our code than it would to just recreate it from the ground up.
 
