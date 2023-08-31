@@ -53,7 +53,7 @@ To put it simply, by contributing to GearStation, you agree to allow others to u
 
 If you don't want people to freely reuse and modify your stuff, don't contribute to GearStation.
 
-When it comes to contributions you didn't make entirely yourself (Ports from other codebases, use of outside code or assets, etc.), refer to the porting guidelines.
+When it comes to contributions you didn't make entirely yourself (Ports from other codebases, use of outside code or assets, etc.), refer to the [porting guidelines](#porting-featuresspritessoundstools-from-other-codebases).
 
 ## Meet the Team
 
@@ -72,7 +72,7 @@ Maintainers can revert your changes if they feel they are not worth maintaining 
 
 These are the directives we have for project maintainers.
 
-- Do not merge pull requests without prior headcoder approval, unless the pull request's changes don't have a major impact on the intended playability or appearance of the game (bugfixes, quality-of-life improvements, etc.), or no headcoder reply is given within 72 hours of the pull request being opened.
+- Do not merge pull requests without prior headcoder approval, unless the pull request's changes don't have a major impact on the intended playability or appearance of the game (bugfixes, quality-of-life improvements, etc.), or no headcoder reply is given within 48 hours of approval being requested.
 - Do not merge pull requests you create.
 - Do not merge pull requests until 24 hours have passed since it was opened. Exceptions include:
   - Emergency fixes.
@@ -187,25 +187,33 @@ You can see each tag and their GBP values [Here](https://github.com/tgstation/tg
 
 ## Porting features/sprites/sounds/tools from other codebases
 
-If you are porting features/tools from other codebases, you must give them credit where it's due. Typically, crediting them in your pull request and the changelog is the recommended way of doing it. Take note of what license they use though, porting stuff from AGPLv3 and GPLv3 codebases are allowed.
+If you are porting features/tools from other codebases, you must give them credit where it's due. Typically, crediting them in your pull request and the changelog is the recommended way of doing it. Take note of what license they use though, ports from AGPLv3 and GPLv3 codebases are allowed.
 
-Regarding sprites & sounds, you must credit the artist and possibly the codebase. All GearStation assets including icons and sound are under a [Creative Commons BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated. 
+Regarding sprites & sounds, you must credit the artist and possibly the codebase. All GearStation assets including icons and sound are under a [Creative Commons BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
 
-Because GearStation is a codebase that believes in software freedom. assets or code that are under non-free licenses (such as the [Creative Commons BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) that Goonstation and Burgerstation use) are banned from use on Gearstation.
+Because GearStation is a codebase that believes in software freedom. assets or code that are under non-free licenses (such as the [Creative Commons BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) that GoonStation and BurgerStation use) are banned from use on GearStation. If there are assets in something that you want to port that make use of non-free licenses, you may either:
+
+A: Replace all of the offending assets with ones that you created yourself, or are otherwise under a license that GearStation accepts.
+
+B: Get written permission from the original creator(s) to sublicense the assets under Creative Commons BY-SA 3.0, or, failing that, another license that GearStation accepts.
+
+When it comes to code that's under non-free licenses, you should follow similar procedures. You should strongly considier rewriting the offending code from scratch instead of getting it sublicensed, as most codebases that are under non-free licenses are strongly divorced from other codebases in their programming practices, and it may take more work to try to make it work on our code than it would to just recreate it from the ground up.
+
+However, if you wish to do so, you may try to obtain written permission to sublicense the offending code under the AGPL V3, or, failing that, another license that GearStation accepts.
 
 The GNU website has a helpful list of free and non-free licenses [here](https://www.gnu.org/licenses/license-list.en.html).
 
 ## Restricted content
 Adding any of the following in a Pull Request requires prior approval from a maintainer or headcoder:
 * Code adding, removing, or updating the availability of alien races/species/human mutants. Pull requests attempting to add or remove features from said races/species/mutants require prior approval as well.
-* Station maps consisting of more than one z-level.
+* Station maps consisting of more than one Z-level.
 
 ## Banned content
 Do not add any of the following in a Pull Request or risk getting the PR closed:
 * Code where one line of code is split across multiple lines (except for multiple, separate strings and comments; in those cases, existing longer lines must not be split up.).
 * Any assets or code that are under non-free licenses.
 * Anything that relies on Extools, Auxtools, or any other BYOND version dependent external DLLs to function.
-* Anything that contains in-game references to real world news events, popular culture, or internet memes.
+* Anything that contains in-game references to real world news events, popular culture, or internet memes. This also applies to references to the game itself, such as the players, admins, developers, or community happenings of GearStation and other SS13 codebases.
 * Anything that's meant to generate or spread real world bigotry or prejuidice.
 * Code which violates GitHub's [terms of service](https://github.com/site/terms).
 
@@ -218,4 +226,4 @@ Unless overridden or a non standard git binary is used the line ending settings 
 
 Note: VSC requires an [extension](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) to take advantage of editorconfig.
 
-Github actions that require additional configuration are disabled on the repository until ACTION_ENABLER secret is created with non-empty value.
+Github actions that require additional configuration are disabled on the repository until the ACTION_ENABLER secret is created with a non-empty value.
