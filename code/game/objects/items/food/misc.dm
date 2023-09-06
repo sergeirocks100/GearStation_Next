@@ -97,12 +97,12 @@
 	. = ..()
 	AddElement(/datum/element/dunkable, 10)
 
-/obj/item/food/tatortot
-	name = "tator tot"
-	desc = "A large fried potato nugget that may or may not try to valid you."
-	icon_state = "tatortot"
+/obj/item/food/tatertots
+	name = "tater tots"
+	desc = "A pile of tater tots. Golden brown and delicious."
+	icon_state = "tatertots"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
-	tastes = list("potato" = 3, "valids" = 1)
+	tastes = list("potato" = 1)
 	foodtypes = FRIED | VEGETABLES
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
