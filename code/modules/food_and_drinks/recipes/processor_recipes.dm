@@ -102,7 +102,7 @@
 /datum/food_processor_process/potato
 	input = /obj/item/food/grown/potato
 	blacklist = list(/obj/item/food/grown/potato/sweet, /obj/item/food/grown/potato/wedges)
-	output = /obj/item/food/tatortot
+	output = /obj/item/food/tatertots
 
 /datum/food_processor_process/carrot
 	input = /obj/item/food/grown/carrot
