@@ -102,7 +102,7 @@
 	desc = "A pile of tater tots. Golden brown and delicious."
 	icon_state = "tatertots"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
-	tastes = list("potato" = 1,)
+	tastes = list("potato" = 1)
 	foodtypes = FRIED | VEGETABLES
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
